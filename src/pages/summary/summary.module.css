@@ -1,0 +1,43 @@
+.statCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardBody {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  margin: 0 30px;
+}
+
+.cardTitleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardStatContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cardTitle {
+  font-weight: 500 !important;
+}
+
+.cardStat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.latestCardStat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
